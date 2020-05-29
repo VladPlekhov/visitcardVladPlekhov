@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #8fd0ff;
+}
+
+body {
+  min-width: 430px;
+}
+
+
+
+main,
+header,
+footer {
+  background-color: #f3faff;
+  border: 2px solid #7fc1ff;
+}
+
+nav,
+section,
+article,
+aside {
+  background-color: #f9f7ff;
+  background: rgba (249, 247, 255, 0.7);
+  border: 2px solid #7fc1ff;
+}
+
+
+h1,
+h2,
+h3
+p {
+  font-size: 16px;
+  background-color: #c8d6e6;
+  border: 2px solid #7fc1ff;
+}
+
+*
+ {
+  position: relative;
+  padding: 10px 10px 10px;
+  margin: 0;
+  border-radius: 8px;
+}
+
+sup  {
+  padding: 0px 0px 0px;
+  margin: 2px;
+  border-radius: 0px;
+}
+
+*:not(:last-child) {
+  margin-bottom: 20px;
+}
+
